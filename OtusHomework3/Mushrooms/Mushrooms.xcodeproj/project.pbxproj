@@ -7,32 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9777023276511F1008E5A21 /* OtusHomework3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9777013276511EF008E5A21 /* OtusHomework3App.swift */; };
-		F9777024276511F1008E5A21 /* OtusHomework3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9777013276511EF008E5A21 /* OtusHomework3App.swift */; };
-		F9777025276511F1008E5A21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9777014276511EF008E5A21 /* ContentView.swift */; };
-		F9777026276511F1008E5A21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9777014276511EF008E5A21 /* ContentView.swift */; };
-		F9777027276511F1008E5A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9777015276511F1008E5A21 /* Assets.xcassets */; };
-		F9777028276511F1008E5A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9777015276511F1008E5A21 /* Assets.xcassets */; };
+		F91C9A7B279B0DE600B710F6 /* MushroomsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C9A7A279B0DE600B710F6 /* MushroomsApp.swift */; };
+		F91C9A7D279B0DE600B710F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C9A7C279B0DE600B710F6 /* ContentView.swift */; };
+		F91C9A7F279B0DE900B710F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91C9A7E279B0DE900B710F6 /* Assets.xcassets */; };
+		F91C9A82279B0DE900B710F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91C9A81279B0DE900B710F6 /* Preview Assets.xcassets */; };
+		F91C9A8A279B0F3600B710F6 /* MushroomsClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F91C9A89279B0F3600B710F6 /* MushroomsClassifier.mlmodel */; };
+		F91C9A8C279B100D00B710F6 /* PredictMushroomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C9A8B279B100D00B710F6 /* PredictMushroomViewModel.swift */; };
+		F91C9A8E279B20A300B710F6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C9A8D279B20A300B710F6 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F9777013276511EF008E5A21 /* OtusHomework3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtusHomework3App.swift; sourceTree = "<group>"; };
-		F9777014276511EF008E5A21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F9777015276511F1008E5A21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F977701A276511F1008E5A21 /* OtusHomework3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtusHomework3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9777020276511F1008E5A21 /* OtusHomework3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtusHomework3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9777022276511F1008E5A21 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F91C9A77279B0DE600B710F6 /* Mushrooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mushrooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91C9A7A279B0DE600B710F6 /* MushroomsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomsApp.swift; sourceTree = "<group>"; };
+		F91C9A7C279B0DE600B710F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F91C9A7E279B0DE900B710F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F91C9A81279B0DE900B710F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F91C9A89279B0F3600B710F6 /* MushroomsClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MushroomsClassifier.mlmodel; sourceTree = "<group>"; };
+		F91C9A8B279B100D00B710F6 /* PredictMushroomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictMushroomViewModel.swift; sourceTree = "<group>"; };
+		F91C9A8D279B20A300B710F6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F9777017276511F1008E5A21 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F977701D276511F1008E5A21 /* Frameworks */ = {
+		F91C9A74279B0DE600B710F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,98 +38,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F977700D276511EE008E5A21 = {
+		F91C9A6E279B0DE600B710F6 = {
 			isa = PBXGroup;
 			children = (
-				F9777012276511EF008E5A21 /* Shared */,
-				F9777021276511F1008E5A21 /* macOS */,
-				F977701B276511F1008E5A21 /* Products */,
+				F91C9A79279B0DE600B710F6 /* Mushrooms */,
+				F91C9A78279B0DE600B710F6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F9777012276511EF008E5A21 /* Shared */ = {
+		F91C9A78279B0DE600B710F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9777013276511EF008E5A21 /* OtusHomework3App.swift */,
-				F9777014276511EF008E5A21 /* ContentView.swift */,
-				F9777015276511F1008E5A21 /* Assets.xcassets */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		F977701B276511F1008E5A21 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F977701A276511F1008E5A21 /* OtusHomework3.app */,
-				F9777020276511F1008E5A21 /* OtusHomework3.app */,
+				F91C9A77279B0DE600B710F6 /* Mushrooms.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F9777021276511F1008E5A21 /* macOS */ = {
+		F91C9A79279B0DE600B710F6 /* Mushrooms */ = {
 			isa = PBXGroup;
 			children = (
-				F9777022276511F1008E5A21 /* macOS.entitlements */,
+				F91C9A88279B0EEA00B710F6 /* Models */,
+				F91C9A7A279B0DE600B710F6 /* MushroomsApp.swift */,
+				F91C9A7C279B0DE600B710F6 /* ContentView.swift */,
+				F91C9A8D279B20A300B710F6 /* ImagePicker.swift */,
+				F91C9A7E279B0DE900B710F6 /* Assets.xcassets */,
+				F91C9A80279B0DE900B710F6 /* Preview Content */,
 			);
-			path = macOS;
+			path = Mushrooms;
+			sourceTree = "<group>";
+		};
+		F91C9A80279B0DE900B710F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F91C9A81279B0DE900B710F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F91C9A88279B0EEA00B710F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F91C9A89279B0F3600B710F6 /* MushroomsClassifier.mlmodel */,
+				F91C9A8B279B100D00B710F6 /* PredictMushroomViewModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F9777019276511F1008E5A21 /* OtusHomework3 (iOS) */ = {
+		F91C9A76279B0DE600B710F6 /* Mushrooms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F977702B276511F1008E5A21 /* Build configuration list for PBXNativeTarget "OtusHomework3 (iOS)" */;
+			buildConfigurationList = F91C9A85279B0DE900B710F6 /* Build configuration list for PBXNativeTarget "Mushrooms" */;
 			buildPhases = (
-				F9777016276511F1008E5A21 /* Sources */,
-				F9777017276511F1008E5A21 /* Frameworks */,
-				F9777018276511F1008E5A21 /* Resources */,
+				F91C9A73279B0DE600B710F6 /* Sources */,
+				F91C9A74279B0DE600B710F6 /* Frameworks */,
+				F91C9A75279B0DE600B710F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "OtusHomework3 (iOS)";
-			productName = "OtusHomework3 (iOS)";
-			productReference = F977701A276511F1008E5A21 /* OtusHomework3.app */;
-			productType = "com.apple.product-type.application";
-		};
-		F977701F276511F1008E5A21 /* OtusHomework3 (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F977702E276511F1008E5A21 /* Build configuration list for PBXNativeTarget "OtusHomework3 (macOS)" */;
-			buildPhases = (
-				F977701C276511F1008E5A21 /* Sources */,
-				F977701D276511F1008E5A21 /* Frameworks */,
-				F977701E276511F1008E5A21 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "OtusHomework3 (macOS)";
-			productName = "OtusHomework3 (macOS)";
-			productReference = F9777020276511F1008E5A21 /* OtusHomework3.app */;
+			name = Mushrooms;
+			productName = Mushrooms;
+			productReference = F91C9A77279B0DE600B710F6 /* Mushrooms.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F977700E276511EE008E5A21 /* Project object */ = {
+		F91C9A6F279B0DE600B710F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					F9777019276511F1008E5A21 = {
-						CreatedOnToolsVersion = 13.0;
-					};
-					F977701F276511F1008E5A21 = {
-						CreatedOnToolsVersion = 13.0;
+					F91C9A76279B0DE600B710F6 = {
+						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = F9777011276511EE008E5A21 /* Build configuration list for PBXProject "OtusHomework3" */;
+			buildConfigurationList = F91C9A72279B0DE600B710F6 /* Build configuration list for PBXProject "Mushrooms" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,59 +127,45 @@
 				en,
 				Base,
 			);
-			mainGroup = F977700D276511EE008E5A21;
-			productRefGroup = F977701B276511F1008E5A21 /* Products */;
+			mainGroup = F91C9A6E279B0DE600B710F6;
+			productRefGroup = F91C9A78279B0DE600B710F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9777019276511F1008E5A21 /* OtusHomework3 (iOS) */,
-				F977701F276511F1008E5A21 /* OtusHomework3 (macOS) */,
+				F91C9A76279B0DE600B710F6 /* Mushrooms */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F9777018276511F1008E5A21 /* Resources */ = {
+		F91C9A75279B0DE600B710F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9777027276511F1008E5A21 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F977701E276511F1008E5A21 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9777028276511F1008E5A21 /* Assets.xcassets in Resources */,
+				F91C9A82279B0DE900B710F6 /* Preview Assets.xcassets in Resources */,
+				F91C9A7F279B0DE900B710F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F9777016276511F1008E5A21 /* Sources */ = {
+		F91C9A73279B0DE600B710F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9777025276511F1008E5A21 /* ContentView.swift in Sources */,
-				F9777023276511F1008E5A21 /* OtusHomework3App.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F977701C276511F1008E5A21 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9777026276511F1008E5A21 /* ContentView.swift in Sources */,
-				F9777024276511F1008E5A21 /* OtusHomework3App.swift in Sources */,
+				F91C9A8A279B0F3600B710F6 /* MushroomsClassifier.mlmodel in Sources */,
+				F91C9A7D279B0DE600B710F6 /* ContentView.swift in Sources */,
+				F91C9A8E279B20A300B710F6 /* ImagePicker.swift in Sources */,
+				F91C9A8C279B100D00B710F6 /* PredictMushroomViewModel.swift in Sources */,
+				F91C9A7B279B0DE600B710F6 /* MushroomsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F9777029276511F1008E5A21 /* Debug */ = {
+		F91C9A83279B0DE900B710F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,15 +216,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		F977702A276511F1008E5A21 /* Release */ = {
+		F91C9A84279B0DE900B710F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,155 +271,96 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-			};
-			name = Release;
-		};
-		F977702C276511F1008E5A21 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.OtusHomework3";
-				PRODUCT_NAME = OtusHomework3;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F977702D276511F1008E5A21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.OtusHomework3";
-				PRODUCT_NAME = OtusHomework3;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F977702F276511F1008E5A21 /* Debug */ = {
+		F91C9A86279B0DE900B710F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mushrooms/Preview Content\"";
+				DEVELOPMENT_TEAM = 399H9MZM4W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.OtusHomework3";
-				PRODUCT_NAME = OtusHomework3;
-				SDKROOT = macosx;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Mushrooms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F9777030276511F1008E5A21 /* Release */ = {
+		F91C9A87279B0DE900B710F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mushrooms/Preview Content\"";
+				DEVELOPMENT_TEAM = 399H9MZM4W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.OtusHomework3";
-				PRODUCT_NAME = OtusHomework3;
-				SDKROOT = macosx;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Mushrooms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F9777011276511EE008E5A21 /* Build configuration list for PBXProject "OtusHomework3" */ = {
+		F91C9A72279B0DE600B710F6 /* Build configuration list for PBXProject "Mushrooms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9777029276511F1008E5A21 /* Debug */,
-				F977702A276511F1008E5A21 /* Release */,
+				F91C9A83279B0DE900B710F6 /* Debug */,
+				F91C9A84279B0DE900B710F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F977702B276511F1008E5A21 /* Build configuration list for PBXNativeTarget "OtusHomework3 (iOS)" */ = {
+		F91C9A85279B0DE900B710F6 /* Build configuration list for PBXNativeTarget "Mushrooms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F977702C276511F1008E5A21 /* Debug */,
-				F977702D276511F1008E5A21 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F977702E276511F1008E5A21 /* Build configuration list for PBXNativeTarget "OtusHomework3 (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F977702F276511F1008E5A21 /* Debug */,
-				F9777030276511F1008E5A21 /* Release */,
+				F91C9A86279B0DE900B710F6 /* Debug */,
+				F91C9A87279B0DE900B710F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F977700E276511EE008E5A21 /* Project object */;
+	rootObject = F91C9A6F279B0DE600B710F6 /* Project object */;
 }

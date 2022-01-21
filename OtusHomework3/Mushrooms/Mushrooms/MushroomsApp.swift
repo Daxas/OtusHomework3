@@ -1,14 +1,14 @@
 //
-//  OtusHomework3App.swift
-//  Shared
+//  MushroomsApp.swift
+//  Mushrooms
 //
-//  Created by Дарья Сербер on 11.12.2021.
+//  Created by Дарья Сербер on 21.01.2022.
 //
 
 import SwiftUI
 
 @main
-struct OtusHomework3App: App {
+struct MushroomsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
