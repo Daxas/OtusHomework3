@@ -7,28 +7,32 @@
 
 import SwiftUI
 
+final class ImageData: ObservableObject {
+    @Published var image = UIImage()
+}
+
 struct ContentView: View {
     
     @StateObject var predictMushroomViewModel: PredictMushroomViewModel = .init()
+    @StateObject var imageData: ImageData = .init()
     
     @State private var isShowPhotoLibrary = false
-    @State private var image = UIImage() {
-        didSet {
-            predictMushroomViewModel.runDetector(image: self.image)
-        }
-    }
     
     var body: some View {
         VStack {
-            Image(uiImage: self.image)
+            Image(uiImage: self.imageData.image)
                 .resizable()
                 .scaledToFill()
-                .frame(minWidth: 0, maxWidth: .infinity)
+                .frame(width: 350, height: 350)
+                .border(Color.blue)
+                .clipped()
+                .background(Color.blue.opacity(0.1))
             Text(predictMushroomViewModel.label)
+                .font(.headline)
+                .padding()
             Spacer()
             Button(action: {
                 self.isShowPhotoLibrary = true
-                
             }) {
                 HStack {
                     Image(systemName: "photo")
@@ -45,10 +49,8 @@ struct ContentView: View {
             }
         }
         .sheet(isPresented: $isShowPhotoLibrary) {
-            ImagePicker(selectedImage: self.$image)
+            ImagePicker(selectedImage: self.$imageData.image)
         }
-        .onAppear {
-            
-        }
+        .onReceive(imageData.$image) { predictMushroomViewModel.runDetector(for: $0) }
     }
 }
